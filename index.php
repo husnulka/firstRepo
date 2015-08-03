@@ -6,7 +6,7 @@
 $sDBHost = "192.168.26.201";
 $sDBUser = "root";
 $sDBPwd = "p@ssword";
-$sDBName = "VIOSS_BE_DEMO";
+$sDBName = "";
 
 function ConnectToDB(&$DBLink, &$DBConn, $sDBHost, $sDBUser, $sDBPwd, $sDBName, $newLink = false) {
     $DBLink = mysql_connect($sDBHost, $sDBUser, $sDBPwd, $newLink);
