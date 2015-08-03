@@ -3,7 +3,7 @@
  * Date : Wed, Feb 25, 2015
  */
 //nanti kesini : /var/vsi-montools/payment/data-recon-v2
-$sDBHost = "";
+$sDBHost = "192.0.0.1";
 $sDBUser = "root";
 $sDBPwd = "p@ssword";
 $sDBName = "";
