@@ -5,7 +5,7 @@
 //nanti kesini : /var/vsi-montools/payment/data-recon-v2
 $sDBHost = "192.0.0.1";
 $sDBUser = "root";
-$sDBPwd = "p@ssword";
+$sDBPwd = "";
 $sDBName = "";
 
 function ConnectToDB(&$DBLink, &$DBConn, $sDBHost, $sDBUser, $sDBPwd, $sDBName, $newLink = false) {
